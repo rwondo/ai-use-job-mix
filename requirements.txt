@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+pyfixest
+openpyxl
+xlrd
+huggingface_hub
+jupyter
