@@ -19,3 +19,5 @@ Drop small countries,False,0.003,0.021,-46.5,402,13
 Drop small countries,True,0.012,0.026,-38.6,402,13
 US-weight crosswalk,False,0.04,0.039,-24.4,482,16
 US-weight crosswalk,True,0.035,0.043,-22.7,482,16
+English slopes (no Ireland),False,0.033,0.038,-25.3,456,15
+English slopes (no Ireland),True,0.034,0.043,-22.6,456,15
