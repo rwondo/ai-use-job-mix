@@ -17,3 +17,5 @@ ISCO 1-digit,False,0.124,0.028,-31.7,128,16
 ISCO 1-digit,True,0.101,0.024,-38.2,128,16
 Drop small countries,False,0.003,0.021,-46.5,402,13
 Drop small countries,True,0.012,0.026,-38.6,402,13
+US-weight crosswalk,False,0.04,0.039,-24.4,482,16
+US-weight crosswalk,True,0.035,0.043,-22.7,482,16

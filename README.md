@@ -11,6 +11,7 @@ Each decision is recorded here, with its date, before the analysis it affects.
 - **2026-11-07, crosswalk.** Main: equal splits when one code maps to several groups. Robustness: US employment weights.
 - **2026-11-07, income control.** GDP per capita in PPS, 2025 (nama_10_pc), with separate slopes by ISCO 1-digit group (OC1 is the reference). GDP rather than AUI, because AUI is itself Claude usage.
 - **2026-11-07, small countries.** Robustness check drops countries with fewer than 4 million employed in 2025 (LFS): DK, FI, IE. Set before running the check.
+- **2026-11-07, crosswalk.** Main: equal splits. Robustness: splits in proportion to each ISCO group’s US size (BLS OEWS May 2025), the same weights for every country.
 
 ## Data sources
 
