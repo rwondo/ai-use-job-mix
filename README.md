@@ -8,6 +8,9 @@ Each decision is recorded here, with its date, before the analysis it affects.
 
 - **2026-11-07, sample.** EU member states with May 2026 published detailed-occupation coverage ≥ 80% (16 countries: AUT, BEL, CZE, DNK, FIN, FRA, DEU, GRC, IRL, ITA, NLD, POL, PRT, ROU, ESP, SWE). Robustness: EU ≥ 70% (adds BGR, HUN, LTU, SVK). Coverage by country: `output/tables/coverage.csv`.
 - **2026-11-07, month.** Main: May 2026. Robustness: April 2026.
+- **2026-11-07, crosswalk.** Main: equal splits when one code maps to several groups. Robustness: US employment weights.
+- **2026-11-07, income control.** GDP per capita in PPS, 2025 (nama_10_pc), with separate slopes by ISCO 1-digit group (OC1 is the reference). GDP rather than AUI, because AUI is itself Claude usage.
+- **2026-11-07, small countries.** Robustness check drops countries with fewer than 4 million employed in 2025 (LFS): DK, FI, IE. Set before running the check.
 
 ## Data sources
 

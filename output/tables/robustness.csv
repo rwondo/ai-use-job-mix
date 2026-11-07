@@ -1,0 +1,19 @@
+check,slopes,beta,se,t_vs_1,cells,countries
+Main,False,0.036,0.035,-27.4,482,16
+Main,True,0.03,0.038,-25.8,482,16
+EU >= 70% (20 countries),False,0.034,0.03,-32.0,575,20
+EU >= 70% (20 countries),True,0.015,0.034,-28.8,575,20
+April usage,False,0.048,0.024,-40.1,452,16
+April usage,True,0.044,0.023,-41.9,452,16
+2024 employment,False,0.039,0.038,-25.2,482,16
+2024 employment,True,0.034,0.041,-23.7,482,16
+Drop ISCO 25 and 23,False,0.036,0.036,-27.1,450,16
+Drop ISCO 25 and 23,True,0.03,0.037,-25.9,450,16
+Drop Ireland,False,0.033,0.038,-25.3,456,15
+Drop Ireland,True,0.044,0.043,-22.2,456,15
+2024 GDP,False,0.036,0.035,-27.4,482,16
+2024 GDP,True,0.031,0.038,-25.8,482,16
+ISCO 1-digit,False,0.124,0.028,-31.7,128,16
+ISCO 1-digit,True,0.101,0.024,-38.2,128,16
+Drop small countries,False,0.003,0.021,-46.5,402,13
+Drop small countries,True,0.012,0.026,-38.6,402,13
