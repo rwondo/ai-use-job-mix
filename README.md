@@ -1,6 +1,13 @@
 # Does AI use follow the job mix?
 
-Is cross-country variation in AI use explained by differences in occupational structure? This project relates usage from the Anthropic Economic Index to the European occupational mix (Eurostat LFS) through occupation-level AI exposure measures and SOC/ISCO crosswalks.
+Across EU countries, do places with relatively more workers in an occupation use Claude relatively more for that occupation’s tasks? This project relates Claude usage shares from the Anthropic Economic Index to employment shares from the Eurostat Labour Force Survey, linked through SOC–ISCO crosswalks.
+
+## Decisions log
+
+Each decision is recorded here, with its date, before the analysis it affects.
+
+- **2026-11-07, sample.** EU member states with May 2026 published detailed-occupation coverage ≥ 80% (16 countries: AUT, BEL, CZE, DNK, FIN, FRA, DEU, GRC, IRL, ITA, NLD, POL, PRT, ROU, ESP, SWE). Robustness: EU ≥ 70% (adds BGR, HUN, LTU, SVK). Coverage by country: `output/tables/coverage.csv`.
+- **2026-11-07, month.** Main: May 2026. Robustness: April 2026.
 
 ## Data sources
 
