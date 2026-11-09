@@ -13,7 +13,8 @@ Each decision is recorded here, with its date, before the analysis it affects.
 - **2026-11-07, small countries.** Robustness check drops countries with fewer than 4 million employed in 2025 (LFS): DK, FI, IE. Set before running the check.
 - **2026-11-07, crosswalk.** Main: equal splits. Robustness: splits in proportion to each ISCO group’s US size (BLS OEWS May 2025), the same weights for every country.
 - **2026-11-09, Test A.** Exposure = Eloundou et al. human-rated β, averaged to ISCO 2-digit with crosswalk × US-employment weights. GPT-4-rated β as robustness. Prediction: β₀ ≈ 0, β₁ > 0
-
+- **2026-11-09, Test B.** W = May 2026 use_case_work_pct per country, centred at the sample mean, scaled per 10 pp. Prediction: β₁ > 0.
+- **2026-11-09, Test C.** R = 1 for ISCO 22, 32, 24, 33, 26 (health, business/finance, legal). Run jointly with Test A. Prediction: coefficient on ln e × R < 0.
 ## Data sources
 
 | Source | Dataset | Location | Access |
