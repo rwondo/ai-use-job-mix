@@ -15,6 +15,7 @@ Each decision is recorded here, with its date, before the analysis it affects.
 - **2026-11-09, Test A.** Exposure = Eloundou et al. human-rated β, averaged to ISCO 2-digit with crosswalk × US-employment weights. GPT-4-rated β as robustness. Prediction: β₀ ≈ 0, β₁ > 0
 - **2026-11-09, Test B.** W = May 2026 use_case_work_pct per country, centred at the sample mean, scaled per 10 pp. Prediction: β₁ > 0.
 - **2026-11-09, Test C.** R = 1 for ISCO 22, 32, 24, 33, 26 (health, business/finance, legal). Run jointly with Test A. Prediction: coefficient on ln e × R < 0.
+- **2026-11-09, decomposition.** Symmetric Kitagawa split of usage per worker relative to the 16-country pool. U = May 2026 usage_pct; E = LFS 2025 employment. Occupations: ISCO 2-digit groups present in all 16 countries; everything else pooled as “other” so shares sum to 1. Report variance shares.
 ## Data sources
 
 | Source | Dataset | Location | Access |
